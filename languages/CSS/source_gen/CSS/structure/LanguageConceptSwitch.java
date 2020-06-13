@@ -9,9 +9,19 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
+  public static final int CSS_Declaration = 0;
+  public static final int CSS_Declaration_Block = 1;
+  public static final int CSS_File = 2;
+  public static final int CSS_Ruleset = 3;
+  public static final int CSS_Selector = 4;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xb38e874f4c8f43a4L, 0x92d8990b98e3c7abL);
+    builder.put(0x19f6196be6f9735aL, CSS_Declaration);
+    builder.put(0x19f6196be6f9735bL, CSS_Declaration_Block);
+    builder.put(0x19f6196be6f9735cL, CSS_File);
+    builder.put(0x19f6196be6f9735dL, CSS_Ruleset);
+    builder.put(0x19f6196be6f9735eL, CSS_Selector);
     myIndex = builder.seal();
   }
 
