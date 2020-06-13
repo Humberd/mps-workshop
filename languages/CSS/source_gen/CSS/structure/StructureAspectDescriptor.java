@@ -93,7 +93,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:82f445e9-9333-4b8c-9edb-48b92a292d9a(CSS.structure)/1870710646446322525");
     b.version(2);
-    b.aggregate("selector", 0x19f6196be6f9736aL).target(0xb38e874f4c8f43a4L, 0x92d8990b98e3c7abL, 0x19f6196be6f9735eL).optional(false).ordered(true).multiple(true).origin("1870710646446322538").done();
+    b.aggregate("selectors", 0x19f6196be6f9736aL).target(0xb38e874f4c8f43a4L, 0x92d8990b98e3c7abL, 0x19f6196be6f9735eL).optional(false).ordered(true).multiple(true).origin("1870710646446322538").done();
     b.aggregate("block", 0x19f6196be6f9736cL).target(0xb38e874f4c8f43a4L, 0x92d8990b98e3c7abL, 0x19f6196be6f9735bL).optional(false).ordered(true).multiple(false).origin("1870710646446322540").done();
     b.alias("ruleset");
     return b.create();

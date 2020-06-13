@@ -149,8 +149,8 @@
       <node id="1870710646446322525" at="92,149,93,34" concept="0" />
       <node id="1870710646446322525" at="93,34,94,90" concept="0" />
       <node id="1870710646446322525" at="94,90,95,17" concept="0" />
-      <node id="1870710646446322538" at="95,17,96,201" concept="0" />
-      <node id="1870710646446322540" at="96,201,97,199" concept="0" />
+      <node id="1870710646446322538" at="95,17,96,202" concept="0" />
+      <node id="1870710646446322540" at="96,202,97,199" concept="0" />
       <node id="1870710646446322525" at="97,199,98,23" concept="0" />
       <node id="1870710646446322525" at="98,23,99,22" concept="4" />
       <node id="1870710646446322525" at="91,0,101,0" concept="6" trace="createDescriptorForCSS_Ruleset#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />

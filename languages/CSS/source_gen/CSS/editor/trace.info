@@ -435,21 +435,21 @@
       <node id="1870710646446374486" at="55,31,56,52" concept="1" />
       <node id="1870710646446374509" at="56,52,57,48" concept="1" />
       <node id="1870710646446374477" at="57,48,58,22" concept="6" />
-      <node id="1870710646446374477" at="60,44,61,100" concept="5" />
-      <node id="1870710646446374477" at="61,100,62,91" concept="5" />
-      <node id="1870710646446374477" at="62,91,63,49" concept="1" />
-      <node id="1870710646446374477" at="63,49,64,51" concept="1" />
+      <node id="1870710646446374477" at="60,44,61,101" concept="5" />
+      <node id="1870710646446374477" at="61,101,62,91" concept="5" />
+      <node id="1870710646446374477" at="62,91,63,50" concept="1" />
+      <node id="1870710646446374477" at="63,50,64,51" concept="1" />
       <node id="1870710646446374477" at="64,51,65,22" concept="6" />
-      <node id="1870710646446374477" at="71,82,72,28" concept="8" />
+      <node id="1870710646446374477" at="71,83,72,28" concept="8" />
       <node id="1870710646446374477" at="72,28,73,25" concept="1" />
       <node id="1870710646446374477" at="77,28,78,20" concept="6" />
-      <node id="1870710646446374477" at="80,40,81,33" concept="6" />
+      <node id="1870710646446374477" at="80,40,81,34" concept="6" />
       <node id="1870710646446374477" at="83,48,84,38" concept="6" />
       <node id="1870710646446374477" at="87,57,88,83" concept="5" />
       <node id="1870710646446374477" at="88,83,89,65" concept="1" />
       <node id="1870710646446374477" at="89,65,90,25" concept="6" />
       <node id="1870710646446374477" at="92,41,93,41" concept="1" />
-      <node id="1870710646446374477" at="93,41,94,143" concept="1" />
+      <node id="1870710646446374477" at="93,41,94,145" concept="1" />
       <node id="1870710646446374477" at="95,11,96,36" concept="5" />
       <node id="1870710646446374477" at="96,36,97,44" concept="1" />
       <node id="1870710646446374477" at="97,44,98,57" concept="1" />
@@ -495,7 +495,7 @@
       <node id="1870710646446374477" at="192,35,193,26" concept="6" />
       <node id="1870710646446374477" at="194,17,195,42" concept="1" />
       <node id="1870710646446374477" at="198,40,199,26" concept="6" />
-      <node id="1870710646446374477" at="204,0,205,0" concept="7" trace="selector$GOrZ" />
+      <node id="1870710646446374477" at="204,0,205,0" concept="7" trace="selectors$GOrZ" />
       <node id="1870710646446374477" at="205,0,206,0" concept="7" trace="block$GOB8" />
       <node id="1870710646446374477" at="209,0,210,0" concept="7" trace="CSS_Selector$$7" />
       <node id="1870710646446374477" at="33,0,35,0" concept="2" trace="myNode" />
@@ -508,7 +508,7 @@
       <node id="1870710646446374477" at="179,7,182,7" concept="3" />
       <node id="1870710646446374477" at="198,0,201,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1870710646446374477" at="36,0,40,0" concept="0" trace="CSS_Ruleset_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1870710646446374477" at="71,0,75,0" concept="0" trace="selectorListHandler_ttmz9d_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1870710646446374477" at="71,0,75,0" concept="0" trace="selectorsListHandler_ttmz9d_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1870710646446374477" at="76,0,80,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1870710646446374477" at="109,97,113,9" concept="3" />
       <node id="1870710646446374477" at="115,95,119,9" concept="3" />
@@ -527,7 +527,7 @@
       <node id="1870710646446374477" at="166,0,173,0" concept="4" trace="createChildCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1870710646446374477" at="176,0,184,0" concept="4" trace="installCellInfo#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)V" />
       <node id="1870710646446374477" at="51,0,60,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1870710646446374477" at="94,143,103,7" concept="9" />
+      <node id="1870710646446374477" at="94,145,103,7" concept="9" />
       <node id="1870710646446374477" at="187,105,196,7" concept="9" />
       <node id="1870710646446374477" at="134,0,146,0" concept="4" trace="createSeparatorCell#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1870710646446374477" at="92,0,105,0" concept="4" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -536,7 +536,7 @@
       <scope id="1870710646446374477" at="43,26,44,18" />
       <scope id="1870710646446374477" at="47,39,48,32" />
       <scope id="1870710646446374477" at="77,28,78,20" />
-      <scope id="1870710646446374477" at="80,40,81,33" />
+      <scope id="1870710646446374477" at="80,40,81,34" />
       <scope id="1870710646446374477" at="83,48,84,38" />
       <scope id="1870710646446374477" at="101,17,102,42" />
       <scope id="1870710646446374477" at="162,28,163,20" />
@@ -545,7 +545,7 @@
       <scope id="1870710646446374477" at="194,17,195,42" />
       <scope id="1870710646446374477" at="198,40,199,26" />
       <scope id="1870710646446374477" at="36,91,38,18" />
-      <scope id="1870710646446374477" at="71,82,73,25" />
+      <scope id="1870710646446374477" at="71,83,73,25" />
       <scope id="1870710646446374477" at="110,122,112,146" />
       <scope id="1870710646446374477" at="116,34,118,142" />
       <scope id="1870710646446374477" at="122,34,124,146" />
@@ -633,7 +633,7 @@
       <unit id="1870710646446374477" at="208,0,211,0" name="CSS.editor.CSS_Ruleset_EditorBuilder_a$CONCEPTS" />
       <unit id="1870710646446374477" at="203,0,207,0" name="CSS.editor.CSS_Ruleset_EditorBuilder_a$LINKS" />
       <unit id="1870710646446374477" at="151,0,202,0" name="CSS.editor.CSS_Ruleset_EditorBuilder_a$blockSingleRoleHandler_ttmz9d_b0" />
-      <unit id="1870710646446374477" at="67,0,147,0" name="CSS.editor.CSS_Ruleset_EditorBuilder_a$selectorListHandler_ttmz9d_a0" />
+      <unit id="1870710646446374477" at="67,0,147,0" name="CSS.editor.CSS_Ruleset_EditorBuilder_a$selectorsListHandler_ttmz9d_a0" />
       <unit id="1870710646446374477" at="32,0,212,0" name="CSS.editor.CSS_Ruleset_EditorBuilder_a" />
     </file>
   </root>

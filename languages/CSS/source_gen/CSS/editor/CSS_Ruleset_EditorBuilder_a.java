@@ -58,17 +58,17 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new selectorListHandler_ttmz9d_a0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new selectorsListHandler_ttmz9d_a0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Indent(), false);
-    editorCell.setCellId("refNodeList_selector");
+    editorCell.setCellId("refNodeList_selectors");
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class selectorListHandler_ttmz9d_a0 extends RefNodeListHandler {
+  private static class selectorsListHandler_ttmz9d_a0 extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public selectorListHandler_ttmz9d_a0(SNode ownerNode, EditorContext context) {
+    public selectorsListHandler_ttmz9d_a0(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -78,7 +78,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.selector$GOrZ;
+      return LINKS.selectors$GOrZ;
     }
     public SAbstractConcept getChildSConcept() {
       return CONCEPTS.CSS_Selector$$7;
@@ -91,7 +91,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(selectorListHandler_ttmz9d_a0.this.getNode(), LINKS.selector$GOrZ));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(selectorsListHandler_ttmz9d_a0.this.getNode(), LINKS.selectors$GOrZ));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -201,7 +201,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink selector$GOrZ = MetaAdapterFactory.getContainmentLink(0xb38e874f4c8f43a4L, 0x92d8990b98e3c7abL, 0x19f6196be6f9735dL, 0x19f6196be6f9736aL, "selector");
+    /*package*/ static final SContainmentLink selectors$GOrZ = MetaAdapterFactory.getContainmentLink(0xb38e874f4c8f43a4L, 0x92d8990b98e3c7abL, 0x19f6196be6f9735dL, 0x19f6196be6f9736aL, "selectors");
     /*package*/ static final SContainmentLink block$GOB8 = MetaAdapterFactory.getContainmentLink(0xb38e874f4c8f43a4L, 0x92d8990b98e3c7abL, 0x19f6196be6f9735dL, 0x19f6196be6f9736cL, "block");
   }
 

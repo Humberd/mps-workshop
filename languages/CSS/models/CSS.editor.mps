@@ -112,7 +112,7 @@
     <node concept="3EZMnI" id="1BQ6mJAYzTf" role="2wV5jI">
       <node concept="3F2HdR" id="1BQ6mJAYzTm" role="3EZMnx">
         <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="3zgm:1BQ6mJAYndE" resolve="selector" />
+        <ref role="1NtTu8" to="3zgm:1BQ6mJAYndE" resolve="selectors" />
         <node concept="l2Vlx" id="1BQ6mJAZCDC" role="2czzBx" />
       </node>
       <node concept="3F1sOY" id="1BQ6mJAYzTH" role="3EZMnx">

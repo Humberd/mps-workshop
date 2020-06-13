@@ -96,7 +96,7 @@
     <node concept="1TJgyj" id="1BQ6mJAYndE" role="1TKVEi">
       <property role="IQ2ns" value="1870710646446322538" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="selector" />
+      <property role="20kJfa" value="selectors" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="1BQ6mJAYndu" resolve="CSS_Selector" />
     </node>
