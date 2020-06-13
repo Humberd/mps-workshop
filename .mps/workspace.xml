@@ -19,20 +19,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f12cd01d-cdae-4ec8-a16e-a05c44b85894" name="Default Changelist" comment="Removed unneccessary generator">
-      <change afterPath="$PROJECT_DIR$/languages/CSS/models/CSS.textGen.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/vcs/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/vcs/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/vcs/trace.info" afterDir="false" />
+    <list default="true" id="f12cd01d-cdae-4ec8-a16e-a05c44b85894" name="Default Changelist" comment="Added textgen">
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Basic CSS.build/Basic CSS.build.msd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Basic CSS.build/models/Basic CSS.build.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Basic CSS.build/source_gen.caches/Basic CSS/build/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Basic CSS.build/source_gen.caches/Basic CSS/build/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Basic CSS.build/source_gen/Basic CSS/build/Basic CSS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/Basic CSS.build/source_gen/Basic CSS/build/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/CSS.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/CSS.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/models/CSS.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/models/CSS.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/models/CSS.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/models/CSS.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/editor/CSS_Ruleset_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/editor/CSS_Ruleset_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/editor/CSS_Ruleset_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/editor/CSS_Ruleset_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConceptEditorHintSettings">
+    <option name="enabledHints">
+      <set>
+        <option value="jetbrains.mps.lang.editor.tooltips.editor.tooltips.radar" />
+      </set>
+    </option>
   </component>
   <component name="ConsoleHistory">
     <option name="tabs">
@@ -182,7 +195,7 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <navigator currentView="FileSystem" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <subPane>
@@ -192,25 +205,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b38e874f-4c8f-43a4-92d8-990b98e3c7ab(CSS)" />
+              <option name="myItemId" value="02391e74-b394-45ce-a691-87caabe2296a" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c8ba3d50-d685-4154-b6e9-89238e21a795(CSS.textGen) in IdeaFile[path: D:/Repositories/Basic CSS/languages/CSS/models/CSS.textGen.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b38e874f-4c8f-43a4-92d8-990b98e3c7ab(CSS)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:82f445e9-9333-4b8c-9edb-48b92a292d9a(CSS.structure) in IdeaFile[path: D:/Repositories/Basic CSS/languages/CSS/models/CSS.structure.mps]" />
+              <option name="myItemId" value="CSS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,12 +222,56 @@
               <option name="myItemId" value="b38e874f-4c8f-43a4-92d8-990b98e3c7ab(CSS)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:82f445e9-9333-4b8c-9edb-48b92a292d9a(CSS.structure) in IdeaFile[path: D:/Repositories/Basic CSS/languages/CSS/models/CSS.structure.mps]" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1870710646446322522" />
+              <option name="myItemId" value="7b1e7a36-7e5c-4767-aa18-3005a8ed683b" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basic CSS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:2f6f476a-a0dc-46a5-8a45-98166a4efa65(Basic CSS.build) in IdeaFile[path: D:/Repositories/Basic CSS/solutions/Basic CSS.build/models/Basic CSS.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1870710646446850183" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7b1e7a36-7e5c-4767-aa18-3005a8ed683b" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7b1e7a36-7e5c-4767-aa18-3005a8ed683b" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basic CSS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,12 +298,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="02391e74-b394-45ce-a691-87caabe2296a" />
               <option name="myItemType" value="" />
@@ -272,21 +309,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b38e874f-4c8f-43a4-92d8-990b98e3c7ab(CSS)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="7b1e7a36-7e5c-4767-aa18-3005a8ed683b" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="02391e74-b394-45ce-a691-87caabe2296a" />
+              <option name="myItemId" value="Basic CSS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CSS" />
+              <option name="myItemId" value="r:2f6f476a-a0dc-46a5-8a45-98166a4efa65(Basic CSS.build) in IdeaFile[path: D:/Repositories/Basic CSS/solutions/Basic CSS.build/models/Basic CSS.build.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,14 +328,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="b38e874f-4c8f-43a4-92d8-990b98e3c7ab(CSS)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:82f445e9-9333-4b8c-9edb-48b92a292d9a(CSS.structure) in IdeaFile[path: D:/Repositories/Basic CSS/languages/CSS/models/CSS.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1870710646446322522" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -325,6 +348,48 @@
               <item name="" type="" />
               <item name="" type="" />
             </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -341,7 +406,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="editor.settings.hints" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Basic CSS" type="Build Script" factoryName="Build Script" temporary="true">
+      <myNodePointer>
+        <MyState>
+          <option name="myNodePointer" value="r:2f6f476a-a0dc-46a5-8a45-98166a4efa65(Basic CSS.build)/1870710646446850183" />
+          <option name="myNodeText" value="Basic CSS.build.Basic CSS" />
+        </MyState>
+      </myNodePointer>
+      <mySettings>
+        <MyState>
+          <option name="myUseOtherAntLocation" value="false" />
+          <option name="myOtherAntLocation" />
+          <option name="myAntOptions" />
+        </MyState>
+      </mySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Build Script.Basic CSS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\sawik\AppData\Roaming\Subversion</configuration>
@@ -389,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592048261804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added textgen">
+      <created>1592049160175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592049160175</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added textgen">
+      <created>1592049169721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592049169721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -422,7 +526,8 @@
     <MESSAGE value="My editor declarations" />
     <MESSAGE value="Changes from tutorial" />
     <MESSAGE value="Removed unneccessary generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unneccessary generator" />
+    <MESSAGE value="Added textgen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added textgen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2625" y="331" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1592043523674">
@@ -433,26 +538,26 @@
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2644" y="476" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592042744901" />
-    <state x="2571" y="95" width="807" height="1017" key="CommitChangelistDialog2" timestamp="1592048944292">
+    <state x="2571" y="95" width="807" height="1017" key="CommitChangelistDialog2" timestamp="1592049169157">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2571" y="95" width="807" height="1017" key="CommitChangelistDialog2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592048944292" />
+    <state x="2571" y="95" width="807" height="1017" key="CommitChangelistDialog2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592049169157" />
     <state x="2200" y="170" width="1536" height="860" key="DiffContextDialog" timestamp="1592047745719">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2200" y="170" width="1536" height="860" key="DiffContextDialog/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592047745719" />
-    <state x="2838" y="18" key="SettingsEditor" timestamp="1592045673155">
+    <state x="2838" y="18" key="SettingsEditor" timestamp="1592049510772">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2838" y="18" key="SettingsEditor/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592045673155" />
+    <state x="2838" y="18" key="SettingsEditor/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592049510772" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1592047722465">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state width="498" height="446" key="SwitcherDM/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592047722465" />
-    <state x="2537" y="309" key="Vcs.Push.Dialog.v2" timestamp="1592046139138">
+    <state x="2537" y="309" key="Vcs.Push.Dialog.v2" timestamp="1592049172428">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2537" y="309" key="Vcs.Push.Dialog.v2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592046139138" />
+    <state x="2537" y="309" key="Vcs.Push.Dialog.v2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592049172428" />
     <state x="2754" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592048118338">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>

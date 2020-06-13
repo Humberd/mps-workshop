@@ -1857,7 +1857,7 @@
                         <node concept="liA8E" id="al" role="2OqNvi">
                           <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.aggregate(java.lang.String,long)" resolve="aggregate" />
                           <node concept="Xl_RD" id="am" role="37wK5m">
-                            <property role="Xl_RC" value="selector" />
+                            <property role="Xl_RC" value="selectors" />
                           </node>
                           <node concept="1adDum" id="an" role="37wK5m">
                             <property role="1adDun" value="0x19f6196be6f9736aL" />
