@@ -30,6 +30,7 @@
     </language>
   </registry>
   <node concept="3Z3QCR" id="1BQ6mJAYHJX">
+    <property role="TrG5h" value="CSS" />
     <node concept="3Z3QCQ" id="1BQ6mJAYHJY" role="3Z3QCu">
       <node concept="3Z3QCP" id="1BQ6mJAYHK4" role="3Z3QC1">
         <property role="TrG5h" value=".foobar" />
@@ -41,6 +42,21 @@
         <node concept="3Z3QCL" id="1BQ6mJAYJs_" role="3Z3QCf">
           <property role="3Z3QCO" value="background-color" />
           <property role="3Z3QCa" value="red" />
+        </node>
+        <node concept="3Z3QCL" id="1BQ6mJAZaWL" role="3Z3QCf">
+          <property role="3Z3QCO" value="text-color" />
+          <property role="3Z3QCa" value="yellow" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Z3QCQ" id="1BQ6mJAZuCJ" role="3Z3QCu">
+      <node concept="3Z3QCP" id="1BQ6mJAZuCK" role="3Z3QC1">
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="3Z3QCK" id="1BQ6mJAZuCL" role="3Z3QC7">
+        <node concept="3Z3QCL" id="1BQ6mJAZuCZ" role="3Z3QCf">
+          <property role="3Z3QCO" value="color" />
+          <property role="3Z3QCa" value="blue" />
         </node>
       </node>
     </node>
