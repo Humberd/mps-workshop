@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f12cd01d-cdae-4ec8-a16e-a05c44b85894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.mps/codeStyleSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/dictionaries/sawik.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/CSS/models/CSS.vcs.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/CSS.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/CSS.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/structure/trace.info" afterDir="false" />
+    <list default="true" id="f12cd01d-cdae-4ec8-a16e-a05c44b85894" name="Default Changelist" comment="Added some basic concepts">
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Declaration_Block_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Declaration_Block_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Declaration_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Declaration_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_File_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_File_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Ruleset_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Ruleset_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Selector_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/CSS_Selector_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/classes_gen/CSS/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/models/CSS.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/models/CSS.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/models/CSS.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/models/CSS.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/sandbox/models/CSS.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/sandbox/models/CSS.sandbox.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/structure/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen.caches/CSS/structure/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CSS/source_gen/CSS/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,14 +195,8 @@
               <option name="myItemId" value="r:82f445e9-9333-4b8c-9edb-48b92a292d9a(CSS.structure) in IdeaFile[path: D:/Repositories/Basic CSS/languages/CSS/models/CSS.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02391e74-b394-45ce-a691-87caabe2296a" />
+              <option name="myItemId" value="1870710646446322522" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,6 +213,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="b38e874f-4c8f-43a4-92d8-990b98e3c7ab(CSS)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:82f445e9-9333-4b8c-9edb-48b92a292d9a(CSS.structure) in IdeaFile[path: D:/Repositories/Basic CSS/languages/CSS/models/CSS.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02391e74-b394-45ce-a691-87caabe2296a" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02391e74-b394-45ce-a691-87caabe2296a" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,11 +268,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="02391e74-b394-45ce-a691-87caabe2296a" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSS" />
+              <option name="myItemId" value="b38e874f-4c8f-43a4-92d8-990b98e3c7ab(CSS)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,7 +286,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1870710646446322524" />
+              <option name="myItemId" value="1870710646446322522" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -300,7 +323,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.settings.hints" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\sawik\AppData\Roaming\Subversion</configuration>
@@ -320,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592042784995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added some basic concepts">
+      <created>1592043595463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592043595463</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -332,24 +362,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added some basic concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some basic concepts" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2625" y="331" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1592043523674">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2625" y="331" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592043523674" />
     <state x="2644" y="476" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1592042744901">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2644" y="476" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592042744901" />
-    <state x="2571" y="140" key="CommitChangelistDialog2" timestamp="1592042784176">
+    <state x="2571" y="95" width="807" height="1017" key="CommitChangelistDialog2" timestamp="1592044478364">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2571" y="140" key="CommitChangelistDialog2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592042784176" />
-    <state x="2711" y="242" key="SettingsEditor" timestamp="1592043198524">
+    <state x="2571" y="95" width="807" height="1017" key="CommitChangelistDialog2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592044478364" />
+    <state x="2200" y="170" key="DiffContextDialog" timestamp="1592044464702">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2711" y="242" key="SettingsEditor/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592043198524" />
-    <state x="2537" y="309" key="Vcs.Push.Dialog.v2" timestamp="1592042883470">
+    <state x="2200" y="170" key="DiffContextDialog/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592044464702" />
+    <state x="2838" y="18" key="SettingsEditor" timestamp="1592044327172">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2537" y="309" key="Vcs.Push.Dialog.v2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592042883470" />
+    <state x="2838" y="18" key="SettingsEditor/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592044327172" />
+    <state x="2537" y="309" key="Vcs.Push.Dialog.v2" timestamp="1592043597042">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2537" y="309" key="Vcs.Push.Dialog.v2/4480.0.1536.848/1920.0.2048.1112/0.0.1920.1040@1920.0.2048.1112" timestamp="1592043597042" />
   </component>
 </project>
